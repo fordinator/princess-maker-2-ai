@@ -27,3 +27,4 @@
 - "Secret" endings are unlocked at 50 "turns", or when certain stat gates are met.
 - Examine the code if you want spoilers.
 
+Visit <https://vexation.me> to learn more about me, and offer support for an insane redneck.
