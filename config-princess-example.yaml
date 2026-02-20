@@ -1,0 +1,65 @@
+# ═══════════════════════════════════════════════════
+#  Princess Bot Configuration
+#  Copy this to config-princess.yaml and fill in your values
+# ═══════════════════════════════════════════════════
+
+# Discord bot token (create at https://discord.com/developers/applications)
+bot_token: "YOUR_BOT_TOKEN_HERE"
+
+# Your bot's client ID (for generating invite URL)
+client_id: "YOUR_CLIENT_ID_HERE"
+
+# Bot status message shown in Discord
+status_message: "Raising my stepsister"
+
+# ─── Permissions ───
+permissions:
+  users:
+    admin_ids:
+      - 000000000000000000  # Your Discord user ID
+    allowed_ids: []
+    blocked_ids: []
+  roles:
+    allowed_ids: []
+    blocked_ids: []
+  channels:
+    allowed_ids: []
+    blocked_ids: []
+
+# ─── LLM Providers ───
+# Add your API keys for whichever providers you want to use.
+# The bot uses the OpenAI SDK format, so any OpenAI-compatible API works.
+providers:
+  openrouter:
+    base_url: "https://openrouter.ai/api/v1"
+    api_key: "YOUR_OPENROUTER_KEY"
+
+  # Example: local model via ollama/LM Studio
+  # local:
+  #   base_url: "http://localhost:1234/v1"
+  #   api_key: "sk-no-key-required"
+
+  # Example: Anthropic via their API
+  # anthropic:
+  #   base_url: "https://api.anthropic.com/v1"
+  #   api_key: "YOUR_ANTHROPIC_KEY"
+
+# ─── Models ───
+# Format: provider/model_name
+# The first model listed is the default.
+# Optional parameters (temperature, max_tokens, etc.) go as values.
+models:
+  openrouter/anthropic/claude-sonnet-4-20250514:
+    temperature: 0.9
+    max_tokens: 1024
+
+  # openrouter/google/gemini-2.0-flash-001:
+  #   temperature: 0.9
+  #   max_tokens: 1024
+
+  # openrouter/meta-llama/llama-3.1-70b-instruct:
+  #   temperature: 0.9
+  #   max_tokens: 1024
+
+  # local/your-local-model:
+  #   temperature: 0.9
