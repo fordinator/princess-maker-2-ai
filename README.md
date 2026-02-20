@@ -11,9 +11,9 @@
 ### Usage
 
 - `/princess new` starts a new stepsister with an LLM generated introduction.
-- `/stats` shows the stepsisters' stats, and narrates a brief description.
-- `/train` selects from a series of training events to raise one stat by +1 point.
-- `/activity' and type a two word activity of your choice raises two LLM-chosen stats by +1.
+- `/princess stats` shows the stepsisters' stats, and narrates a brief description.
+- `/princess train` selects from a series of training events to raise one stat by +1 point.
+- `/princess activity' and type a two word activity of your choice raises two LLM-chosen stats by +1.
 - Replying to the bot in the manner one would any *Discord* participant is a "freeform" activity.
 - "Freeform" activities are judged by the LLM and change the most relevant stat from -3 to +3.
 -`/princess reset` casts your stepsister into the fires of oblivion.
