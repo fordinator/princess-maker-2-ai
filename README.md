@@ -1,5 +1,5 @@
 # princess-maker-2-ai
-*Discord* chatbot with a tamagotchi style girlfriend stat system, narrated by an LLM. *Princess Maker 2* was pretty damn creepy, so this is about a stepsister moving in with her older stepbrother. If you dislike this, take it up with one of the rest of the mature streaming video industry. All characters portrayed are 18, those accessing this repository need legal age of 18+ or 21+ (depending on jurisdiction)
+*Discord* chatbot with a tamagotchi style girlfriend stat system, narrated by an LLM. *Princess Maker 2* was pretty damn creepy, so this is about a stepsister moving in with her older stepbrother. If you dislike this, take it up with the rest of the mature streaming video industry. All characters portrayed are 18, those accessing this repository need legal age of 18+ or 21+ (depending on jurisdiction)
 
 ### Preamble
 
