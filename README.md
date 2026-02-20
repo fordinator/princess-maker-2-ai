@@ -3,26 +3,27 @@
 
 ### Preamble
 
-Heavily inspired by llmcord. <https://github.com/jakobdylanc/llmcord>
-Partially vibe-coded with *Claude Code* (caco-bot ver.) <https://code.claude.com/docs/en/overview>
-Consult llmcord docs for configuration.
+- Heavily inspired by llmcord. <https://github.com/jakobdylanc/llmcord>
+- Partially vibe-coded with *Claude Code* (caco-bot ver.) <https://code.claude.com/docs/en/overview>
+- Hand checked for bugs, logic errors and hallucinations. (I had a little *Python* in community college, and I've spent hours staring at llmcord)
+- Consult llmcord docs for configuration.
 
 ### Usage
 
-`/princess new` starts a new stepsister with an LLM generated introduction.
-`/stats` shows the stepsisters' stats, and narrates a brief description.
-`/train` selects from a series of training events to raise one stat by +1 point.
-`/activity' and type a two word activity of your choice raises two LLM-chosen stats by +1.
-Replying to the bot in the manner one would any *Discord* participant is a "freeform" activity.
-"Freeform" activities are judged by the LLM and change the most relevant stat from -3 to +3.
-`/princess reset` casts your stepsister into the fires of oblivion.
+- `/princess new` starts a new stepsister with an LLM generated introduction.
+- `/stats` shows the stepsisters' stats, and narrates a brief description.
+- `/train` selects from a series of training events to raise one stat by +1 point.
+- `/activity' and type a two word activity of your choice raises two LLM-chosen stats by +1.
+- Replying to the bot in the manner one would any *Discord* participant is a "freeform" activity.
+- "Freeform" activities are judged by the LLM and change the most relevant stat from -3 to +3.
+-`/princess reset` casts your stepsister into the fires of oblivion.
 
 ### Notes
 
-Per-user memory system is included.
-Bot has a identifying characteristics, a brief history of itself and an event log.
-Data is in a `json` sorted by *Discord* ID.
-Multiple users are supported, but only one stepsister at a time.
-"Secret" endings are unlocked at 50 "turns", or when certain stat gates are met.
-Examine the code if you want spoilers.
+- Per-user memory system is included.
+- Bot has a identifying characteristics, a brief history of itself and an event log.
+- Data is in a `json` sorted by *Discord* ID.
+- Multiple users are supported, but only one stepsister at a time.
+- "Secret" endings are unlocked at 50 "turns", or when certain stat gates are met.
+- Examine the code if you want spoilers.
 
