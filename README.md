@@ -16,7 +16,7 @@
 - `/princess activity` and type a two word activity of your choice raises two LLM-chosen stats by +1.
 - Replying to the bot in the manner one would any *Discord* participant is a "freeform" activity.
 - "Freeform" activities are judged by the LLM and change the most relevant stat from -3 to +3.
--`/princess reset` casts your stepsister into the fires of oblivion.
+- `/princess reset` casts your stepsister into the fires of oblivion.
 
 ### Notes
 
